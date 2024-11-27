@@ -1,0 +1,58 @@
+type Item @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userid: String
+  top: TopType
+  bottom: BottomType
+  shoe: ShoeType
+  image: String
+  color: Color
+}
+
+enum Color {
+  BEIGE
+  BLACK
+  BLUE
+  BROWN
+  GRAY
+  GREEN
+  MULTI
+  ORANGE
+  PINK
+  PURPLE
+  RED
+  TURQUOISE
+  WHITE
+  YELLOW
+}
+
+enum ShoeType {
+  DRESS_SHOES
+  SNEAKERS
+  BOOTS
+  NONE
+}
+
+enum BottomType {
+  JEANS
+  CHINOS
+  JOGGERS
+  SHORTS
+  DRESSPANTS
+  UNDERWEAR
+  ACTIVEWEAR
+  NONE
+}
+
+enum TopType {
+  BUTTONDOWNSHIRTS
+  FLANNELSHIRTS
+  POLOS
+  TSHIRTS
+  SWEATERS
+  SWEATSHIRT_HOODIES
+  CASUALBUTTONDOWNSHIRTS
+  GRAPHICSTEES
+  ACTIVEWEAR
+  NONE
+}
+ 

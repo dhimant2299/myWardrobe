@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mydrobe-dev-175707-authRole",
+      "UnauthRoleArn": "arn:aws:iam::558713112949:role/amplify-mydrobe-dev-175707-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::558713112949:role/amplify-mydrobe-dev-175707-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-mydrobe-dev-175707-deployment",
+      "UnauthRoleName": "amplify-mydrobe-dev-175707-unauthRole",
+      "StackName": "amplify-mydrobe-dev-175707",
+      "StackId": "arn:aws:cloudformation:us-east-2:558713112949:stack/amplify-mydrobe-dev-175707/35111030-69f8-11ed-8320-0acdc6b05e68",
+      "AmplifyAppId": "d1sheggc2zi8nj"
+    },
+    "categories": {
+      "auth": {
+        "mydrobe": {}
+      },
+      "api": {
+        "mydrobe": {}
+      },
+      "storage": {
+        "s32225d5b2": {}
+      }
+    }
+  }
+}

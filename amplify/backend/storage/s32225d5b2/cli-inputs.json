@@ -1,0 +1,14 @@
+{
+  "resourceName": "s32225d5b2",
+  "policyUUID": "2225d5b2",
+  "bucketName": "mydrobe782b4112e654489fa39cd69ee58b724a",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
